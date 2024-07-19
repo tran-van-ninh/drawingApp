@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="tool">
+        <input id="color" type="color">
+
+        <button id="eraser">
+            <i class='bx bx-eraser'></i>
+        </button>
+
+        <button id="decrease">
+            -
+        </button>
+
+        <button id="size">
+            20
+        </button>
+
+        <button id="increase">
+            +
+        </button>
+
+        <a id="save" download="file.jpg" >
+            <i class='bx bxs-save' ></i>
+        </a>
+
+        <button id="clear">
+            <i class='bx bx-window-close'></i>
+        </button>
+    </div>
+    
+
+    <div class="content">
+        <!-- <canvas id="canvas" width="1000" height="800" style="border:1px solid #000000;"
+     ></canvas> -->
+     <canvas id="canvas"  style="border:1px solid #000000;"></canvas>
+    </div>
+    
+</body>
+
+<script src="./js/main.js"></script>
+</html>
